@@ -15,3 +15,7 @@ The [hadoop-aws](https://hadoop.apache.org/docs/current/hadoop-aws/tools/hadoop-
 ### Azrue Blob Storage
 
 The [hadoop-azure](https://hadoop.apache.org/docs/current/hadoop-azure/index.html) is included in the image to support Azure Blob Storage integration
+
+### Alibaba Cloud Storage 
+
+The [hadoop-aliyun](https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-aliyun/3.0.0-beta1)  is included in the image to support alibaba cloud Blob Storage integration
