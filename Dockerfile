@@ -17,4 +17,8 @@ ADD http://central.maven.org/maven2/com/microsoft/azure/azure-storage/2.0.0/azur
 # Add hadoop-azure to access Azure Blob Storage
 ADD http://central.maven.org/maven2/org/apache/hadoop/hadoop-azure/2.7.3/hadoop-azure-2.7.3.jar $SPARK_HOME/jars
 
+# Add dependency for alibaba cloud
+ADD http://repo.alibaba-inc.com/nexus/content/groups/b2brepository/org/apache/hadoop/hadoop-aliyun/2.7.2-rc5/hadoop-aliyun-2.7.2-rc5.jar $SPARK_HOME/jars
+ADD http://repo.alibaba-inc.com/nexus/content/groups/b2brepository/com/aliyun/oss/aliyun-sdk-oss/3.4.1/aliyun-sdk-oss-3.4.1.jar $SPARK_HOME/jars
+
 ENTRYPOINT ["/opt/entrypoint.sh"]
